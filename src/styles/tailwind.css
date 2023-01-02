@@ -2,17 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.ant-layout{
+.ant-layout {
   @apply bg-white
 }
 
-.ant-layout-header{
+.ant-layout-header {
   @apply bg-[#F3F5F7] p-0 flex items-center
 }
 
-.ant-menu{
+.ant-menu {
   @apply bg-inherit
 }
-.search input.ant-input{
+
+.search input.ant-input {
   @apply leading-[32px] border px-2 border-r-0
+}
+
+.ant-layout-sider {
+  @apply bg-white
 }
