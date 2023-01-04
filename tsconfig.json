@@ -20,7 +20,10 @@
     "baseUrl": ".",
     "types": ["vitest/globals"],
     "paths": {
-      "@layouts/*": ["./src/layouts/*"]
+      "@layouts/*": ["./src/layouts/*"],
+      "@mockdata/*": ["./src/mockdata/*"],
+      "@pages/*": ["./src/pages/*"],
+
     }
   }
 }

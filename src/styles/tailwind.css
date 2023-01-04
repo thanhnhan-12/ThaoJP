@@ -2,12 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Header */
 .ant-layout {
   @apply bg-white
 }
 
+.header1 {
+  @apply bg-[#dbd5e2] px-[150px] border-b-2 pt-[10px] pb-[7px] text-[12px]
+}
+
+.header1 .contact a {
+  @apply ml-[8px]
+}
+
 .ant-layout-header {
-  @apply bg-[#F3F5F7] p-0 flex items-center
+  @apply bg-[#dbd5e2] py-0 px-2 flex items-center
 }
 
 .ant-menu {
@@ -15,9 +24,18 @@
 }
 
 .search input.ant-input {
-  @apply leading-[32px] border px-2 border-r-0
+  @apply leading-[32px] border px-2 border-r-0 w-[20em] 
 }
 
+.search .ant-btn {
+  @apply border-solid border-2 border-[#666666]
+}
+
+/* Aside */
 .ant-layout-sider {
-  @apply bg-white
+  @apply bg-[#cbcab7]
+}
+
+.custom-sider .ant-menu {
+  @apply !h-auto 
 }
