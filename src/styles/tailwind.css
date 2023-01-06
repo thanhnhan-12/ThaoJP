@@ -39,3 +39,36 @@
 .custom-sider .ant-menu {
   @apply !h-auto 
 }
+
+/* Content */
+.react-multi-carousel-item {
+  @apply pr-4
+}
+
+.react-multiple-carousel__arrow {
+  @apply bg-black
+}
+
+.fij {
+  @apply flex items-center justify-between
+}
+
+.ant-card-body {
+  @apply p-[10px]
+}
+
+.course-item .ant-space-item {
+  @apply shrink-0
+}
+
+.course-item button {
+  @apply px-1
+}
+
+.absolute-xy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

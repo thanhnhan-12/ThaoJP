@@ -24,6 +24,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.7.1",
+    "react-multi-carousel": "^2.8.2",
     "release-it": "^14.12.4",
     "vite-react-jsx": "^1.1.2",
     "vitest": "^0.2.7"
